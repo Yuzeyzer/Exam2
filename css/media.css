@@ -1,0 +1,112 @@
+@media screen and (max-width: 1199.98px) {
+    html {
+        font-size: 9px;
+    }
+    #footer {
+        background: none;
+    }
+    #footer .container .row {
+        width: 100%;
+    }
+    .col-6 {
+        width: 100%;
+    }
+     .col-3 {
+        width: 50%;
+    }
+    #footer .container .row .col-3 ul {
+        float: left;
+    }
+    #city-map {
+        margin-top: 25rem;
+        padding-bottom: 40rem;
+    }
+}
+
+
+@media screen and (max-width: 991.98px) {
+    html {
+        font-size: 9px;
+    }
+    .menu {
+        display: none;
+    }
+    .mobile-btn {
+        display: flex;
+    }
+    .place-row {
+        margin-left: 0;
+    }
+    #hero .container .hero-content .hero-info {
+        width: 100%;
+    }
+    #hero .container .hero-content .img-girl-walk {
+        margin: 15% 0 0 25% ;
+        width: 50%;
+    }
+    #Place .container .row {
+        margin: 0;
+    }
+    #Place .container .place-row-1 {
+        padding-left: 0;
+    }
+    #footer {
+        padding-top: 0;
+    }
+    .place-row-2 {
+        padding-left: 0;
+    }
+    .pl {
+        padding-left: 0;
+    }
+    .road {
+        display: none;
+    }
+    .col-5 {
+        width: 100%;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+    #hero .container .hero-content .img-girl-walk {
+        display: none;
+    }
+    #city-map {
+        margin-top: 0;
+        padding-bottom: 50rem;
+    }
+    .vector {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    html {
+        font-size: 9px;
+    }
+    #Place .container .row {
+        transform: translateY(-25%);
+    }
+    #hero .container .hero-content {
+        flex-wrap: wrap;
+    }
+    #hero .container .hero-content .hero-info #search {
+        width: 100%;
+    }
+    #hero .container .hero-content .hero-info #label-search:after {
+        transform: translateY(20%);
+    }
+}
+
+@media screen and (max-width: 545.98px) {
+    
+}
+@media screen and (max-width: 400.98px) {
+    #city-map .container .row .col-6 .map-items .ios {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+}
