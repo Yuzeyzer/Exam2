@@ -94,7 +94,7 @@
         flex-wrap: wrap;
     }
     #hero .container .hero-content .hero-info #search {
-        width: 100%;
+        width: 80%;
     }
     #hero .container .hero-content .hero-info #label-search:after {
         transform: translateY(20%);
@@ -102,7 +102,9 @@
 }
 
 @media screen and (max-width: 545.98px) {
-    
+    #hero .container .hero-content .hero-info #search {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 400.98px) {
     #city-map .container .row .col-6 .map-items .ios {
